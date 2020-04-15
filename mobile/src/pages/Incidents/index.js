@@ -41,7 +41,9 @@ export default function Incidents() {
     setLoading(false);
   }
 
-  useEffect(() => { }, []);
+  useEffect(() => {
+    loadIncidents();
+  }, []);
 
   return (
     <View style={styles.container}>
