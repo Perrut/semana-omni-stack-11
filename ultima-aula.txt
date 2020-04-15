@@ -1,0 +1,3 @@
+- Validações
+ - integração nas rotas
+ - celebrate
